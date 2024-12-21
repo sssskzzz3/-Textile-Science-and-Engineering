@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6a60f81e4ebc88e9be3b58b5948a970c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6a60f81e4ebc88e9be3b58b5948a970c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6a60f81e4ebc88e9be3b58b5948a970c = L.map(
+                "map_6a60f81e4ebc88e9be3b58b5948a970c",
+                {
+                    center: [35.8617, 104.1954],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0b5d9a6317cd71b2ed4749ba69bacd68 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0b5d9a6317cd71b2ed4749ba69bacd68.addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+            var marker_ab400cade473e1fdec64b1d5a320643a = L.marker(
+                [22.5816619, 113.0761073],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_8bd54cd517793ec6e45596c01444fc4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44af6c96f4207f564102b5194e14758d = $(`<div id="html_44af6c96f4207f564102b5194e14758d" style="width: 100.0%; height: 100.0%;">五邑大学 (广东省江门市)</div>`)[0];
+                popup_8bd54cd517793ec6e45596c01444fc4d.setContent(html_44af6c96f4207f564102b5194e14758d);
+            
+        
+
+        marker_ab400cade473e1fdec64b1d5a320643a.bindPopup(popup_8bd54cd517793ec6e45596c01444fc4d)
+        ;
+
+        
+    
+    
+            marker_ab400cade473e1fdec64b1d5a320643a.bindTooltip(
+                `<div>
+                     五邑大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbeef609cdd0663820132242675a2c60 = L.marker(
+                [29.9992425, 120.576854],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_69651b4f8eb6e3875bf4fb7aaaf9f148 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f961457fa5befeea7f4e0d4ae61ba41 = $(`<div id="html_2f961457fa5befeea7f4e0d4ae61ba41" style="width: 100.0%; height: 100.0%;">绍兴文理学院 (浙江省绍兴市)</div>`)[0];
+                popup_69651b4f8eb6e3875bf4fb7aaaf9f148.setContent(html_2f961457fa5befeea7f4e0d4ae61ba41);
+            
+        
+
+        marker_fbeef609cdd0663820132242675a2c60.bindPopup(popup_69651b4f8eb6e3875bf4fb7aaaf9f148)
+        ;
+
+        
+    
+    
+            marker_fbeef609cdd0663820132242675a2c60.bindTooltip(
+                `<div>
+                     绍兴文理学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dde46da721ae0a3ef3d6ade009432983 = L.marker(
+                [30.7474425, 120.7510971],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_57a19b81bac8c0a98ceddc0c45867b1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e20ed843fb8210423061776d34ccd5b3 = $(`<div id="html_e20ed843fb8210423061776d34ccd5b3" style="width: 100.0%; height: 100.0%;">嘉兴大学 (浙江省嘉兴市)</div>`)[0];
+                popup_57a19b81bac8c0a98ceddc0c45867b1a.setContent(html_e20ed843fb8210423061776d34ccd5b3);
+            
+        
+
+        marker_dde46da721ae0a3ef3d6ade009432983.bindPopup(popup_57a19b81bac8c0a98ceddc0c45867b1a)
+        ;
+
+        
+    
+    
+            marker_dde46da721ae0a3ef3d6ade009432983.bindTooltip(
+                `<div>
+                     嘉兴大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d96992df31da7e69f602ae98b0cb6259 = L.marker(
+                [43.8244074, 87.6139038],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_a6241d2c9761a16e7f89eb0e96995835 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_585bebb2d6b01ab26177a2e4d70f7067 = $(`<div id="html_585bebb2d6b01ab26177a2e4d70f7067" style="width: 100.0%; height: 100.0%;">新疆科技学院 (新疆维吾尔自治区乌鲁木齐市)</div>`)[0];
+                popup_a6241d2c9761a16e7f89eb0e96995835.setContent(html_585bebb2d6b01ab26177a2e4d70f7067);
+            
+        
+
+        marker_d96992df31da7e69f602ae98b0cb6259.bindPopup(popup_a6241d2c9761a16e7f89eb0e96995835)
+        ;
+
+        
+    
+    
+            marker_d96992df31da7e69f602ae98b0cb6259.bindTooltip(
+                `<div>
+                     新疆科技学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e994b1d039425bb519cf11b59ca8960 = L.marker(
+                [34.7533392, 113.6599983],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_2deee24fc9df6805b23fb11b3ac428c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fa90e4a868afe3a1049e9e3feb8e307 = $(`<div id="html_5fa90e4a868afe3a1049e9e3feb8e307" style="width: 100.0%; height: 100.0%;">中原工学院 (河南省郑州市)</div>`)[0];
+                popup_2deee24fc9df6805b23fb11b3ac428c9.setContent(html_5fa90e4a868afe3a1049e9e3feb8e307);
+            
+        
+
+        marker_1e994b1d039425bb519cf11b59ca8960.bindPopup(popup_2deee24fc9df6805b23fb11b3ac428c9)
+        ;
+
+        
+    
+    
+            marker_1e994b1d039425bb519cf11b59ca8960.bindTooltip(
+                `<div>
+                     中原工学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_910eae54308a9ca463f43f4a053fdb5c = L.marker(
+                [28.6472124, 116.0348483],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_9e373f0443ef5f8993308b6409f97674 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a705d82732f3939d1145defd548d014 = $(`<div id="html_1a705d82732f3939d1145defd548d014" style="width: 100.0%; height: 100.0%;">江西服装学院 (江西省南昌市)</div>`)[0];
+                popup_9e373f0443ef5f8993308b6409f97674.setContent(html_1a705d82732f3939d1145defd548d014);
+            
+        
+
+        marker_910eae54308a9ca463f43f4a053fdb5c.bindPopup(popup_9e373f0443ef5f8993308b6409f97674)
+        ;
+
+        
+    
+    
+            marker_910eae54308a9ca463f43f4a053fdb5c.bindTooltip(
+                `<div>
+                     江西服装学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_243cce51cbf9cebfc047ece9ed93611a = L.marker(
+                [36.0637967, 120.3192081],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_dc533b48841ec5f768a6e66b970ca3d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4492fe0cf92b7507981655cb603d47f8 = $(`<div id="html_4492fe0cf92b7507981655cb603d47f8" style="width: 100.0%; height: 100.0%;">青岛大学 (山东省青岛市)</div>`)[0];
+                popup_dc533b48841ec5f768a6e66b970ca3d1.setContent(html_4492fe0cf92b7507981655cb603d47f8);
+            
+        
+
+        marker_243cce51cbf9cebfc047ece9ed93611a.bindPopup(popup_dc533b48841ec5f768a6e66b970ca3d1)
+        ;
+
+        
+    
+    
+            marker_243cce51cbf9cebfc047ece9ed93611a.bindTooltip(
+                `<div>
+                     青岛大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9d3ec1ad7aef270c3afe6d4ba8c6fd9 = L.marker(
+                [31.311123, 120.6212881],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_b96f0a099a5643ea6a8b36dff12a9950 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74bcca95798a9b15aac3b0507b896416 = $(`<div id="html_74bcca95798a9b15aac3b0507b896416" style="width: 100.0%; height: 100.0%;">苏州大学 (江苏省苏州市)</div>`)[0];
+                popup_b96f0a099a5643ea6a8b36dff12a9950.setContent(html_74bcca95798a9b15aac3b0507b896416);
+            
+        
+
+        marker_d9d3ec1ad7aef270c3afe6d4ba8c6fd9.bindPopup(popup_b96f0a099a5643ea6a8b36dff12a9950)
+        ;
+
+        
+    
+    
+            marker_d9d3ec1ad7aef270c3afe6d4ba8c6fd9.bindTooltip(
+                `<div>
+                     苏州大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19655230e258e17f81c2c7c059057d14 = L.marker(
+                [31.6572954, 120.7480757],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_3a92e041061635c70a05858281bbeb5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a21c4050774355444683effad7fab3f7 = $(`<div id="html_a21c4050774355444683effad7fab3f7" style="width: 100.0%; height: 100.0%;">常熟理工学院 (江苏省常熟市)</div>`)[0];
+                popup_3a92e041061635c70a05858281bbeb5e.setContent(html_a21c4050774355444683effad7fab3f7);
+            
+        
+
+        marker_19655230e258e17f81c2c7c059057d14.bindPopup(popup_3a92e041061635c70a05858281bbeb5e)
+        ;
+
+        
+    
+    
+            marker_19655230e258e17f81c2c7c059057d14.bindTooltip(
+                `<div>
+                     常熟理工学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4597ebf4aa3d259842c7976b2d640edb = L.marker(
+                [25.1901863, 118.338717],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_e878d249214da6308d3d5593f8478698 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9eb8c7bf6f9851d7bff85fa9eb41a976 = $(`<div id="html_9eb8c7bf6f9851d7bff85fa9eb41a976" style="width: 100.0%; height: 100.0%;">泉州师范学院 (福建省泉州市)</div>`)[0];
+                popup_e878d249214da6308d3d5593f8478698.setContent(html_9eb8c7bf6f9851d7bff85fa9eb41a976);
+            
+        
+
+        marker_4597ebf4aa3d259842c7976b2d640edb.bindPopup(popup_e878d249214da6308d3d5593f8478698)
+        ;
+
+        
+    
+    
+            marker_4597ebf4aa3d259842c7976b2d640edb.bindTooltip(
+                `<div>
+                     泉州师范学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e83df18af61241f3e106c9216f7c0459 = L.marker(
+                [43.8244074, 87.6139038],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_62e65f0357476167b6ae638fcfd9b906 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03cada1ff5082778222b5f818e16168a = $(`<div id="html_03cada1ff5082778222b5f818e16168a" style="width: 100.0%; height: 100.0%;">新疆大学 (新疆维吾尔自治区乌鲁木齐市)</div>`)[0];
+                popup_62e65f0357476167b6ae638fcfd9b906.setContent(html_03cada1ff5082778222b5f818e16168a);
+            
+        
+
+        marker_e83df18af61241f3e106c9216f7c0459.bindPopup(popup_62e65f0357476167b6ae638fcfd9b906)
+        ;
+
+        
+    
+    
+            marker_e83df18af61241f3e106c9216f7c0459.bindTooltip(
+                `<div>
+                     新疆大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e07fc49ec09aa6747918a4a52ae5ee6 = L.marker(
+                [30.7474425, 120.7510971],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_1f99d64806d72a5ba3a99e26c19f077d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21f4eb19839c3ec4e1e450472ce684cd = $(`<div id="html_21f4eb19839c3ec4e1e450472ce684cd" style="width: 100.0%; height: 100.0%;">嘉兴南湖学院 (浙江省嘉兴市)</div>`)[0];
+                popup_1f99d64806d72a5ba3a99e26c19f077d.setContent(html_21f4eb19839c3ec4e1e450472ce684cd);
+            
+        
+
+        marker_6e07fc49ec09aa6747918a4a52ae5ee6.bindPopup(popup_1f99d64806d72a5ba3a99e26c19f077d)
+        ;
+
+        
+    
+    
+            marker_6e07fc49ec09aa6747918a4a52ae5ee6.bindTooltip(
+                `<div>
+                     嘉兴南湖学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_904ac977d1228dafd71e4bb36e996b6c = L.marker(
+                [29.9992425, 120.576854],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_b122ea0ab16c3a246a6e01ff19f20590 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69731460c45ab8083a8e66df31cb2e70 = $(`<div id="html_69731460c45ab8083a8e66df31cb2e70" style="width: 100.0%; height: 100.0%;">绍兴文理学院元培学院 (浙江省绍兴市)</div>`)[0];
+                popup_b122ea0ab16c3a246a6e01ff19f20590.setContent(html_69731460c45ab8083a8e66df31cb2e70);
+            
+        
+
+        marker_904ac977d1228dafd71e4bb36e996b6c.bindPopup(popup_b122ea0ab16c3a246a6e01ff19f20590)
+        ;
+
+        
+    
+    
+            marker_904ac977d1228dafd71e4bb36e996b6c.bindTooltip(
+                `<div>
+                     绍兴文理学院元培学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e083dc11ae7987167e5886a8cfd0e36f = L.marker(
+                [30.2489634, 120.2052342],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_4a24fdfc06c302c6f94e533206bf5bef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa0ec9c0129c8909b7196733abcaeeb6 = $(`<div id="html_aa0ec9c0129c8909b7196733abcaeeb6" style="width: 100.0%; height: 100.0%;">浙江理工大学科技与艺术学院 (浙江省杭州市)</div>`)[0];
+                popup_4a24fdfc06c302c6f94e533206bf5bef.setContent(html_aa0ec9c0129c8909b7196733abcaeeb6);
+            
+        
+
+        marker_e083dc11ae7987167e5886a8cfd0e36f.bindPopup(popup_4a24fdfc06c302c6f94e533206bf5bef)
+        ;
+
+        
+    
+    
+            marker_e083dc11ae7987167e5886a8cfd0e36f.bindTooltip(
+                `<div>
+                     浙江理工大学科技与艺术学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_40cb04915d1262973755978ff924a591 = L.marker(
+                [37.461928, 121.4425255],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_bace08e5dfc5089176da4b183d1c6307 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_409bcf82a0d277372a60dcc4583a4b63 = $(`<div id="html_409bcf82a0d277372a60dcc4583a4b63" style="width: 100.0%; height: 100.0%;">烟台南山学院 (山东省烟台市)</div>`)[0];
+                popup_bace08e5dfc5089176da4b183d1c6307.setContent(html_409bcf82a0d277372a60dcc4583a4b63);
+            
+        
+
+        marker_40cb04915d1262973755978ff924a591.bindPopup(popup_bace08e5dfc5089176da4b183d1c6307)
+        ;
+
+        
+    
+    
+            marker_40cb04915d1262973755978ff924a591.bindTooltip(
+                `<div>
+                     烟台南山学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b16223310b3b1ed81f69b0613606fd3b = L.marker(
+                [34.7533392, 113.6599983],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_22a5be1cb2b1d52b2c8f410fc871bddf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4b80366b9d9e892c060e38470bb6859 = $(`<div id="html_b4b80366b9d9e892c060e38470bb6859" style="width: 100.0%; height: 100.0%;">河南工程学院 (河南省郑州市)</div>`)[0];
+                popup_22a5be1cb2b1d52b2c8f410fc871bddf.setContent(html_b4b80366b9d9e892c060e38470bb6859);
+            
+        
+
+        marker_b16223310b3b1ed81f69b0613606fd3b.bindPopup(popup_22a5be1cb2b1d52b2c8f410fc871bddf)
+        ;
+
+        
+    
+    
+            marker_b16223310b3b1ed81f69b0613606fd3b.bindTooltip(
+                `<div>
+                     河南工程学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13880e5b7fcc4fd3e3a4d6b64e4376cc = L.marker(
+                [41.1686701, 80.2581875],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_d13470d3984acd643faa6fd587f4b9de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b44b4f331445b96ad292ca907bb617e8 = $(`<div id="html_b44b4f331445b96ad292ca907bb617e8" style="width: 100.0%; height: 100.0%;">塔里木大学 (新疆维吾尔自治区阿克苏市)</div>`)[0];
+                popup_d13470d3984acd643faa6fd587f4b9de.setContent(html_b44b4f331445b96ad292ca907bb617e8);
+            
+        
+
+        marker_13880e5b7fcc4fd3e3a4d6b64e4376cc.bindPopup(popup_d13470d3984acd643faa6fd587f4b9de)
+        ;
+
+        
+    
+    
+            marker_13880e5b7fcc4fd3e3a4d6b64e4376cc.bindTooltip(
+                `<div>
+                     塔里木大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a803415727fe03daebf98c70713ee1f7 = L.marker(
+                [30.05518, 107.8748712],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_2f97e2b646f77f7630a64bbabb0ceab1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed1b814a84a98584eb89c342063c48dc = $(`<div id="html_ed1b814a84a98584eb89c342063c48dc" style="width: 100.0%; height: 100.0%;">西南大学 (重庆市)</div>`)[0];
+                popup_2f97e2b646f77f7630a64bbabb0ceab1.setContent(html_ed1b814a84a98584eb89c342063c48dc);
+            
+        
+
+        marker_a803415727fe03daebf98c70713ee1f7.bindPopup(popup_2f97e2b646f77f7630a64bbabb0ceab1)
+        ;
+
+        
+    
+    
+            marker_a803415727fe03daebf98c70713ee1f7.bindTooltip(
+                `<div>
+                     西南大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2195676beceae9c4b74d08ef813ffe3a = L.marker(
+                [31.9827896, 120.8904588],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_bffea1c7434a082d8b768ce38921f48f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a4a7270587d8c00bf705e50b2da1ddf = $(`<div id="html_7a4a7270587d8c00bf705e50b2da1ddf" style="width: 100.0%; height: 100.0%;">南通大学 (江苏省南通市)</div>`)[0];
+                popup_bffea1c7434a082d8b768ce38921f48f.setContent(html_7a4a7270587d8c00bf705e50b2da1ddf);
+            
+        
+
+        marker_2195676beceae9c4b74d08ef813ffe3a.bindPopup(popup_bffea1c7434a082d8b768ce38921f48f)
+        ;
+
+        
+    
+    
+            marker_2195676beceae9c4b74d08ef813ffe3a.bindTooltip(
+                `<div>
+                     南通大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e34b724d710d15a3c24e6914d716b6fc = L.marker(
+                [36.8129564, 118.0488401],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_a38981601fcfb9cc73d88bc10e2eabe4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60b8fed676b34cc37f0becef01f74503 = $(`<div id="html_60b8fed676b34cc37f0becef01f74503" style="width: 100.0%; height: 100.0%;">山东理工大学 (山东省淄博市)</div>`)[0];
+                popup_a38981601fcfb9cc73d88bc10e2eabe4.setContent(html_60b8fed676b34cc37f0becef01f74503);
+            
+        
+
+        marker_e34b724d710d15a3c24e6914d716b6fc.bindPopup(popup_a38981601fcfb9cc73d88bc10e2eabe4)
+        ;
+
+        
+    
+    
+            marker_e34b724d710d15a3c24e6914d716b6fc.bindTooltip(
+                `<div>
+                     山东理工大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3894bb6c358aac859a4844381b8ded1e = L.marker(
+                [23.3594346, 110.0412939],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_d2ac73ccfc2e5c8f2cefd370360476fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c0cb5e868b89fcf30b074aef4294be4 = $(`<div id="html_6c0cb5e868b89fcf30b074aef4294be4" style="width: 100.0%; height: 100.0%;">广西科技大学 (广西壮族自治区贵港市)</div>`)[0];
+                popup_d2ac73ccfc2e5c8f2cefd370360476fd.setContent(html_6c0cb5e868b89fcf30b074aef4294be4);
+            
+        
+
+        marker_3894bb6c358aac859a4844381b8ded1e.bindPopup(popup_d2ac73ccfc2e5c8f2cefd370360476fd)
+        ;
+
+        
+    
+    
+            marker_3894bb6c358aac859a4844381b8ded1e.bindTooltip(
+                `<div>
+                     广西科技大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e140175af3c9ee83a984120f034bb7db = L.marker(
+                [40.6174777, 109.944912],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_896d8fd8602e15add903b68dfa022912 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bef34185651a2e66f18d30fd1e1db0ee = $(`<div id="html_bef34185651a2e66f18d30fd1e1db0ee" style="width: 100.0%; height: 100.0%;">内蒙古工业大学 (内蒙古自治区包头市)</div>`)[0];
+                popup_896d8fd8602e15add903b68dfa022912.setContent(html_bef34185651a2e66f18d30fd1e1db0ee);
+            
+        
+
+        marker_e140175af3c9ee83a984120f034bb7db.bindPopup(popup_896d8fd8602e15add903b68dfa022912)
+        ;
+
+        
+    
+    
+            marker_e140175af3c9ee83a984120f034bb7db.bindTooltip(
+                `<div>
+                     内蒙古工业大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e322745926416ca718e1821549edd54 = L.marker(
+                [26.0774954, 119.2918215],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_7fe1945f7a62ad87ae26b64edd7d6bd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8999481b63dc0a645263ee887b56237 = $(`<div id="html_c8999481b63dc0a645263ee887b56237" style="width: 100.0%; height: 100.0%;">闽江学院 (福建省福州市)</div>`)[0];
+                popup_7fe1945f7a62ad87ae26b64edd7d6bd2.setContent(html_c8999481b63dc0a645263ee887b56237);
+            
+        
+
+        marker_6e322745926416ca718e1821549edd54.bindPopup(popup_7fe1945f7a62ad87ae26b64edd7d6bd2)
+        ;
+
+        
+    
+    
+            marker_6e322745926416ca718e1821549edd54.bindTooltip(
+                `<div>
+                     闽江学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b54b00962f1ac30da4ec92b2d6768eba = L.marker(
+                [30.5951051, 114.2999353],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_a24ffd96a2e0c295329b3c76f30ca6de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16d722582c19c7734c5f9509867db910 = $(`<div id="html_16d722582c19c7734c5f9509867db910" style="width: 100.0%; height: 100.0%;">武汉纺织大学 (湖北省武汉市)</div>`)[0];
+                popup_a24ffd96a2e0c295329b3c76f30ca6de.setContent(html_16d722582c19c7734c5f9509867db910);
+            
+        
+
+        marker_b54b00962f1ac30da4ec92b2d6768eba.bindPopup(popup_a24ffd96a2e0c295329b3c76f30ca6de)
+        ;
+
+        
+    
+    
+            marker_b54b00962f1ac30da4ec92b2d6768eba.bindTooltip(
+                `<div>
+                     武汉纺织大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eceef3bb046cdd763801d460f5366ff2 = L.marker(
+                [47.7363891, 124.6567611],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_aa2d4931f521611c072922e65086c568 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce18440f27fbd849425c516b8951a4e6 = $(`<div id="html_ce18440f27fbd849425c516b8951a4e6" style="width: 100.0%; height: 100.0%;">齐齐哈尔大学 (黑龙江省齐齐哈尔市)</div>`)[0];
+                popup_aa2d4931f521611c072922e65086c568.setContent(html_ce18440f27fbd849425c516b8951a4e6);
+            
+        
+
+        marker_eceef3bb046cdd763801d460f5366ff2.bindPopup(popup_aa2d4931f521611c072922e65086c568)
+        ;
+
+        
+    
+    
+            marker_eceef3bb046cdd763801d460f5366ff2.bindTooltip(
+                `<div>
+                     齐齐哈尔大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a39aa1f2372c241d9b1f0acf46b74bce = L.marker(
+                [27.6995215, 111.9890658],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_dae124a14a3b0286efa321a0e3e39e35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc5d76076d88866fc327a322184c720f = $(`<div id="html_fc5d76076d88866fc327a322184c720f" style="width: 100.0%; height: 100.0%;">湖南工程学院 (湖南省娄底市)</div>`)[0];
+                popup_dae124a14a3b0286efa321a0e3e39e35.setContent(html_fc5d76076d88866fc327a322184c720f);
+            
+        
+
+        marker_a39aa1f2372c241d9b1f0acf46b74bce.bindPopup(popup_dae124a14a3b0286efa321a0e3e39e35)
+        ;
+
+        
+    
+    
+            marker_a39aa1f2372c241d9b1f0acf46b74bce.bindTooltip(
+                `<div>
+                     湖南工程学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_398746279b2a4ba5851b62f55ab6ef24 = L.marker(
+                [34.261004, 108.9423363],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_3ffd5c333ee272564ebd6353adb72582 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc39659e4e670f4eb07c27aca967660b = $(`<div id="html_bc39659e4e670f4eb07c27aca967660b" style="width: 100.0%; height: 100.0%;">西安工程大学 (陕西省西安市)</div>`)[0];
+                popup_3ffd5c333ee272564ebd6353adb72582.setContent(html_bc39659e4e670f4eb07c27aca967660b);
+            
+        
+
+        marker_398746279b2a4ba5851b62f55ab6ef24.bindPopup(popup_3ffd5c333ee272564ebd6353adb72582)
+        ;
+
+        
+    
+    
+            marker_398746279b2a4ba5851b62f55ab6ef24.bindTooltip(
+                `<div>
+                     西安工程大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a12b9d06f08d22196b6841fdea79421 = L.marker(
+                [31.1800568, 118.2141777],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_8f3ab94de305c905d2cb3b7bb604b610 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5005ec0808d0897204511dc0426aed31 = $(`<div id="html_5005ec0808d0897204511dc0426aed31" style="width: 100.0%; height: 100.0%;">安徽工程大学 (安徽省芜湖市)</div>`)[0];
+                popup_8f3ab94de305c905d2cb3b7bb604b610.setContent(html_5005ec0808d0897204511dc0426aed31);
+            
+        
+
+        marker_4a12b9d06f08d22196b6841fdea79421.bindPopup(popup_8f3ab94de305c905d2cb3b7bb604b610)
+        ;
+
+        
+    
+    
+            marker_4a12b9d06f08d22196b6841fdea79421.bindTooltip(
+                `<div>
+                     安徽工程大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e62732fc28a3cc2de9ddbf95ba53b8a3 = L.marker(
+                [31.2312707, 121.4700152],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_cc3c32b6dd3fc0cc82f9eeb1fb2de3d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8686d5b0c4c8b81c3bbf3f7f9a08433 = $(`<div id="html_c8686d5b0c4c8b81c3bbf3f7f9a08433" style="width: 100.0%; height: 100.0%;">上海工程技术大学 (上海市)</div>`)[0];
+                popup_cc3c32b6dd3fc0cc82f9eeb1fb2de3d7.setContent(html_c8686d5b0c4c8b81c3bbf3f7f9a08433);
+            
+        
+
+        marker_e62732fc28a3cc2de9ddbf95ba53b8a3.bindPopup(popup_cc3c32b6dd3fc0cc82f9eeb1fb2de3d7)
+        ;
+
+        
+    
+    
+            marker_e62732fc28a3cc2de9ddbf95ba53b8a3.bindTooltip(
+                `<div>
+                     上海工程技术大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b38d95c0d0ebe67a3bf81b28de67605 = L.marker(
+                [30.2489634, 120.2052342],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_28e8a92cc07eed7ab0f27cf530d44c0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f04761af0589bbaa1610b38ddc9ec04 = $(`<div id="html_9f04761af0589bbaa1610b38ddc9ec04" style="width: 100.0%; height: 100.0%;">浙江理工大学 (浙江省杭州市)</div>`)[0];
+                popup_28e8a92cc07eed7ab0f27cf530d44c0d.setContent(html_9f04761af0589bbaa1610b38ddc9ec04);
+            
+        
+
+        marker_6b38d95c0d0ebe67a3bf81b28de67605.bindPopup(popup_28e8a92cc07eed7ab0f27cf530d44c0d)
+        ;
+
+        
+    
+    
+            marker_6b38d95c0d0ebe67a3bf81b28de67605.bindTooltip(
+                `<div>
+                     浙江理工大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b82e5b0c8e8ecd038e86415f05981cc = L.marker(
+                [39.740278, 122.255833],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_cf991a7b51e386828cad0f8ec8a00e4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1e3ee2410b6a28c4e1df2c53457aca2 = $(`<div id="html_a1e3ee2410b6a28c4e1df2c53457aca2" style="width: 100.0%; height: 100.0%;">大连工业大学 (辽宁省大连市)</div>`)[0];
+                popup_cf991a7b51e386828cad0f8ec8a00e4b.setContent(html_a1e3ee2410b6a28c4e1df2c53457aca2);
+            
+        
+
+        marker_4b82e5b0c8e8ecd038e86415f05981cc.bindPopup(popup_cf991a7b51e386828cad0f8ec8a00e4b)
+        ;
+
+        
+    
+    
+            marker_4b82e5b0c8e8ecd038e86415f05981cc.bindTooltip(
+                `<div>
+                     大连工业大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e278888a4ecae02054f41644bc0acf96 = L.marker(
+                [40.5791477, 124.4407146],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_0eaeb6f3d1a98d73ab7ad7c8c72327c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2131c414497c9e1fd173bb89d53f6f56 = $(`<div id="html_2131c414497c9e1fd173bb89d53f6f56" style="width: 100.0%; height: 100.0%;">辽东学院 (辽宁省丹东市)</div>`)[0];
+                popup_0eaeb6f3d1a98d73ab7ad7c8c72327c0.setContent(html_2131c414497c9e1fd173bb89d53f6f56);
+            
+        
+
+        marker_e278888a4ecae02054f41644bc0acf96.bindPopup(popup_0eaeb6f3d1a98d73ab7ad7c8c72327c0)
+        ;
+
+        
+    
+    
+            marker_e278888a4ecae02054f41644bc0acf96.bindTooltip(
+                `<div>
+                     辽东学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbda2030f624d4ede73af24542c7bab8 = L.marker(
+                [33.349559, 120.1577019],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_205c82926884812aa577a8d282ced290 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98391dfb7a1283651f3619ebc3f6a069 = $(`<div id="html_98391dfb7a1283651f3619ebc3f6a069" style="width: 100.0%; height: 100.0%;">盐城工学院 (江苏省盐城市)</div>`)[0];
+                popup_205c82926884812aa577a8d282ced290.setContent(html_98391dfb7a1283651f3619ebc3f6a069);
+            
+        
+
+        marker_fbda2030f624d4ede73af24542c7bab8.bindPopup(popup_205c82926884812aa577a8d282ced290)
+        ;
+
+        
+    
+    
+            marker_fbda2030f624d4ede73af24542c7bab8.bindTooltip(
+                `<div>
+                     盐城工学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_785c7491b53895176d1fa78b72b2f2ea = L.marker(
+                [37.870009, 112.5452739],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_98b1f923cf9eb62a3f92401e2fdc96df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2890e7aab32a81b2d56e6a86900f0b1b = $(`<div id="html_2890e7aab32a81b2d56e6a86900f0b1b" style="width: 100.0%; height: 100.0%;">太原理工大学 (山西省太原市)</div>`)[0];
+                popup_98b1f923cf9eb62a3f92401e2fdc96df.setContent(html_2890e7aab32a81b2d56e6a86900f0b1b);
+            
+        
+
+        marker_785c7491b53895176d1fa78b72b2f2ea.bindPopup(popup_98b1f923cf9eb62a3f92401e2fdc96df)
+        ;
+
+        
+    
+    
+            marker_785c7491b53895176d1fa78b72b2f2ea.bindTooltip(
+                `<div>
+                     太原理工大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6012f83a8f884a2a65de8a0d1fe9c9e3 = L.marker(
+                [31.2312707, 121.4700152],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_3f3fc09c688f52f71a92819c46354f2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8c21d12dffa7feb92bdbedb6578ad7f = $(`<div id="html_a8c21d12dffa7feb92bdbedb6578ad7f" style="width: 100.0%; height: 100.0%;">东华大学 (上海市)</div>`)[0];
+                popup_3f3fc09c688f52f71a92819c46354f2e.setContent(html_a8c21d12dffa7feb92bdbedb6578ad7f);
+            
+        
+
+        marker_6012f83a8f884a2a65de8a0d1fe9c9e3.bindPopup(popup_3f3fc09c688f52f71a92819c46354f2e)
+        ;
+
+        
+    
+    
+            marker_6012f83a8f884a2a65de8a0d1fe9c9e3.bindTooltip(
+                `<div>
+                     东华大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ae8d984547406ca1a7747e24ef9a38a = L.marker(
+                [31.5776626, 120.2952752],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_46aa37dc1271ab1a7d705a9ba8fd80fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0d28e924e97d366b4c71d94427b7f3c = $(`<div id="html_f0d28e924e97d366b4c71d94427b7f3c" style="width: 100.0%; height: 100.0%;">江南大学 (江苏省无锡市)</div>`)[0];
+                popup_46aa37dc1271ab1a7d705a9ba8fd80fd.setContent(html_f0d28e924e97d366b4c71d94427b7f3c);
+            
+        
+
+        marker_5ae8d984547406ca1a7747e24ef9a38a.bindPopup(popup_46aa37dc1271ab1a7d705a9ba8fd80fd)
+        ;
+
+        
+    
+    
+            marker_5ae8d984547406ca1a7747e24ef9a38a.bindTooltip(
+                `<div>
+                     江南大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ea9270f7342f2e816c144acddb122b7 = L.marker(
+                [39.3032619, 117.4163641],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_76fea152b093272c9c3106091b6afee6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af327faa4ca1248543840d34012e2a7d = $(`<div id="html_af327faa4ca1248543840d34012e2a7d" style="width: 100.0%; height: 100.0%;">天津工业大学 (天津市)</div>`)[0];
+                popup_76fea152b093272c9c3106091b6afee6.setContent(html_af327faa4ca1248543840d34012e2a7d);
+            
+        
+
+        marker_9ea9270f7342f2e816c144acddb122b7.bindPopup(popup_76fea152b093272c9c3106091b6afee6)
+        ;
+
+        
+    
+    
+            marker_9ea9270f7342f2e816c144acddb122b7.bindTooltip(
+                `<div>
+                     天津工业大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d13ef9d24b4a3cbe01fed42b76e44fb = L.marker(
+                [31.8665676, 117.281428],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_5d4b2cbae5e9560d2d6e39795dac51d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd594a7b2daf1a379cfde6dfa344874b = $(`<div id="html_cd594a7b2daf1a379cfde6dfa344874b" style="width: 100.0%; height: 100.0%;">安徽农业大学 (安徽省合肥市)</div>`)[0];
+                popup_5d4b2cbae5e9560d2d6e39795dac51d2.setContent(html_cd594a7b2daf1a379cfde6dfa344874b);
+            
+        
+
+        marker_7d13ef9d24b4a3cbe01fed42b76e44fb.bindPopup(popup_5d4b2cbae5e9560d2d6e39795dac51d2)
+        ;
+
+        
+    
+    
+            marker_7d13ef9d24b4a3cbe01fed42b76e44fb.bindTooltip(
+                `<div>
+                     安徽农业大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d947e52de6f7e08355cbbdfaf985a49d = L.marker(
+                [37.4363704, 116.3534091],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_0bd788d57836e5974539bb3f7130bc1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ac614d33131b5f359df578768fb55e0 = $(`<div id="html_3ac614d33131b5f359df578768fb55e0" style="width: 100.0%; height: 100.0%;">德州学院 (山东省德州市)</div>`)[0];
+                popup_0bd788d57836e5974539bb3f7130bc1f.setContent(html_3ac614d33131b5f359df578768fb55e0);
+            
+        
+
+        marker_d947e52de6f7e08355cbbdfaf985a49d.bindPopup(popup_0bd788d57836e5974539bb3f7130bc1f)
+        ;
+
+        
+    
+    
+            marker_d947e52de6f7e08355cbbdfaf985a49d.bindTooltip(
+                `<div>
+                     德州学院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75d7f7d46512c7e29ccce6ffc857e3df = L.marker(
+                [38.0429742, 114.5088385],
+                {}
+            ).addTo(map_6a60f81e4ebc88e9be3b58b5948a970c);
+        
+    
+        var popup_0bf0e01dd57488f3997535e75226ed3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c3f66bf4e306ebe59a8ed8fe5fbf509 = $(`<div id="html_5c3f66bf4e306ebe59a8ed8fe5fbf509" style="width: 100.0%; height: 100.0%;">河北科技大学 (河北省石家庄市)</div>`)[0];
+                popup_0bf0e01dd57488f3997535e75226ed3d.setContent(html_5c3f66bf4e306ebe59a8ed8fe5fbf509);
+            
+        
+
+        marker_75d7f7d46512c7e29ccce6ffc857e3df.bindPopup(popup_0bf0e01dd57488f3997535e75226ed3d)
+        ;
+
+        
+    
+    
+            marker_75d7f7d46512c7e29ccce6ffc857e3df.bindTooltip(
+                `<div>
+                     河北科技大学
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
